@@ -4,15 +4,16 @@ window.onload = function() {
   form.onsubmit = function(event) {
     // then we print values to the story area;
     // we're hardcoding these values for now
-    document.querySelector("span#person1a").innerText = "person 1";
-    document.querySelector("span#person1b").innerText = "person 1";
-    document.querySelector("span#person1c").innerText = "person 1";
-    document.querySelector("span#person2a").innerText = "person 2";
-    document.querySelector("span#person2b").innerText = "person 2";
-    document.querySelector("span#animal").innerText = "an animal";
-    document.querySelector("span#verb").innerText = "verb";
-    document.querySelector("span#noun").innerText = "noun";
-    document.querySelector("span#exclamation").innerText = "exclamation";
+    document.querySelector("span#person1a").innerText = document.getElementById("person1Input").value;
+    document.querySelector("span#person1b").innerText = document.getElementById("person1Input").value;
+    document.querySelector("span#person1c").innerText = document.getElementById("person1Input").value;
+    document.querySelector("span#person2a").innerText = document.getElementById("person2Input").value;
+    document.querySelector("span#person2b").innerText = document.getElementById("person2Input").value;
+    document.querySelector("span#animal").innerText = document.getElementById("animalInput").value;
+    document.querySelector("span#animal").innerText = document.getElementById("animalInput").value;
+    document.querySelector("span#verb").innerText = document.getElementById("verbInput").value;
+    document.querySelector("span#noun").innerText = document.getElementById("nounInput").value;
+    document.querySelector("span#exclamation").innerText = document.getElementById("exclamationInput").value;
 
     // then we show the story by removing the class attribute
     document.querySelector("div#story").removeAttribute("class");
