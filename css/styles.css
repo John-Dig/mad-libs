@@ -1,3 +1,40 @@
+body {
+  background-color: blanchedalmond;
+}
+form{
+  font-size: x-large;
+  width:22em;
+  float:left;
+}
+
+button{
+  margin:1em;
+  font-size:xx-large;
+}
+input{
+  font-size: x-large;
+}
+
 .hidden {
   display: none;
+}
+.showing{
+  font-size: xx-large;
+  float: left;
+  background-color: darkkhaki;
+  border-radius:10px;
+  border-width: 10px;
+  border-color:dimgrey;
+  border-style:double;
+  margin:3em;
+  padding:1em;
+  width:28em;
+}
+  #story {
+    width:28em;
+
+
+}
+
+
 }
